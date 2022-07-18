@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class MMS{
+            semester1; 
+            semester2; 
+            semester3; 
+            semester4; 
+            constructor(semester1, semester2, semester3, semester4){
+                this.semester1 = semester1; 
+                this.semester2 = semester2; 
+                this.semester3 = semester3; 
+                this.semester4 = semester4; 
+            }
+         }
+
+         returnable = () => variable1 = "returnable";
+            
+         
+         function non_returnable(){
+            
+            return variable2;
+        }
+
+         sum = () =>{
+            var variable2 = "non-returnable";
+
+             return mms.semester1 + mms.semester2 + mms.semester3
+              + mms.semester4;
+         }
+
+         avg = () => sum() / 4;
+
+         product = (variable) => mms.semester1 * mms.semester2 
+         * mms.semester3 * mms.semester4;
+         
+         product = variable => mms.semester1 * mms.semester2 
+         * mms.semester3 * mms.semester4;
+         
+
+        //Constructor Instantiation
+        const mms = new MMS(190000, 190000, 190000, 190000);
+
+        // document.writeln("Sum: "+ sum());
+        // document.writeln("<br>");
+        // document.writeln("Average: "+ avg());
+        // document.writeln("<br>");
+        // document.writeln("Product: "+ product());
+        // document.writeln("<br>");
+        // document.writeln("Semester1: "+ mms.semester1);
+        // document.writeln("<br>");
+        // document.writeln("Semester2: "+ mms.semester2);
+        // document.writeln("<br>");
+        // document.writeln("Semester3: "+ mms.semester3);
+        // document.writeln("<br>");
+        // document.writeln("Semester4: "+ mms.semester4);
+        document.writeln("<br>");
+        document.writeln("For returnable: "+ returnable());
+        
+        document.writeln("<br>");
+        document.writeln("For non-returnable: "+ non_returnable());
+        
+        document.writeln("<br>");
+        document.writeln("<br>");
+        
+    </script>
+</body>
+</html>

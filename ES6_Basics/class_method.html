@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Car{
+            constructor(var1, var2, var3){
+                this.var1 = var1; 
+                this.var2 = var2; 
+                this.var3 = var3; 
+                this.cost = 2000000; 
+            }
+
+            sale(){
+                return "Still on Sell!"
+            }
+            pricing(){
+                return this.cost + " Per Car!"
+            }
+        }
+
+        const car = new Car("lamborghini", "Red", "2020");
+
+        document.writeln(car.var1.toUpperCase());
+        document.writeln(car.var2.toUpperCase());
+        document.writeln(car.var3.toUpperCase());
+        
+        document.writeln("<br>");
+        document.writeln("<br>");
+        
+        document.writeln(car.sale());
+        
+        document.writeln("<br>");
+        document.writeln("<br>");
+        
+        document.writeln(car.pricing());
+
+    </script>
+</body>
+</html>
