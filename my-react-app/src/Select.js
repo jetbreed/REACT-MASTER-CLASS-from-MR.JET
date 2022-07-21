@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 
 function Select() {
@@ -8,6 +9,7 @@ function Select() {
   }
 
   return (
+    <>
     <form>
       <select value={myCar} onChange={handleChange}>
         <option value="Ford">Ford</option>
@@ -15,6 +17,7 @@ function Select() {
         <option value="Fiat">Fiat</option>
       </select>
     </form>
+    </>
   )
 }
 
